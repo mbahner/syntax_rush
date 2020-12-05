@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "returnType": "LIST",
+    "subtype": "STIRNG",
+    "pattern": "[\"a_0\", \"a_1\", \"a_3\", ... \"a_n\"]",
+    "proposedSolutions": [
+        "[\"a_\" + str(i) for i in range(n)]"
+    ]
+}

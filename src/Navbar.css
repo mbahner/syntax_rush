@@ -1,0 +1,17 @@
+@import './vars.css';
+
+#nav {
+    /* selection alignment */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    /* sizing */
+    height: 8vh;
+    font-size: 200%;
+
+    /* aesthetics */
+    background-color: var(--color-nav);
+    font-family: 'Times New Roman', Times, serif;
+}
